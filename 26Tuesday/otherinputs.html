@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--input types of HTML5-->
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>input types</title>
+    </head>
+    <body>
+        <form method="post" action="http://www.domainname.com">
+            
+            <p>
+                <label>month:
+                    <input type="month" /> (yyyy-mm)
+                      
+                </label>
+            </p>
+            <!--INPUT TYPE number-->
+            <p>
+                <label>number:
+                    <input type="number" 
+                    min="0"
+                    max="7"
+                    step="1"
+                    value="4"/>
+
+                </label>
+            </p>
+            <!--input type range-->
+            <p>
+                <label>Range:
+                    0<input type="range"
+                      min="0"
+                      max="20"
+                      value="10"/>20
+
+                </label>
+            </p>
+            <!--input type search-->
+            <p>
+                <label>search:
+
+                    <input type="search" placeholder="searchquerry" />
+                    (enter search querr)
+
+                </label>
+            </p>
+            <!--input type Telephone-->
+            <p>
+                <label>Tel:
+                    <input type="tel" placeholder="(###)-###-###" 
+                    pattern="\(\d{3} + \d{3}) -\d{4}" required/>
+                    (###)-###-###)
+
+                </label>
+            </p>
+            <!--input type time-->
+            <p>
+                <label>month:
+                    <input type="time" /> (hh:mm:ss.ff)
+                      
+                </label>
+            </p>
+            <!--input type url-->
+            <p>
+                <label>url:
+                    <input type="url" placeholder="http://www.domainname.com" />
+                    (http://www.domainname.com)
+                      
+                </label>
+            </p>
+           <!--input type week-->
+           <p>
+            <label>week:
+                <input type="week" /> (yyyy-Wnn)
+                  
+            </label>
+        </p> 
+        <input type ="submit" value="submit"/>
+        <input type ="reset" value="clear"/>
+        </form>
+    </body>
+</html>
