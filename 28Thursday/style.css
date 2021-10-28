@@ -1,0 +1,78 @@
+header {
+    font-size: 50%; color: sienna;
+}
+
+
+body  {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a.one  {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li em  {
+    font-weight: lighter;
+}
+
+ul      {
+    margin-left: 30px;
+}
+
+ul li   {
+    color:tomato
+}
+
+section  {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
